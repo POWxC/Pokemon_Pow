@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pokémon </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Galindo&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img src="pokemon-logo.png" alt="logo pokemon" class="image-banniere">
+            </div>
+        </header>
+            
+        <nav>
+        <div class="conteneur">
+            <div class="div-one">
+                <a href="index.html"> Les Pokemon - Introduction</a>
+            </div>
+            <div class="div-two">
+                <a href="page2.html"> Les Pokemon de la 1e génération</a>
+            </div>
+            <div class="div-three">
+                <a href="page3.html"> Les Pokemon de la 2e génération</a>
+            </div>
+        </div>
+        </nav>
+
+        <main>
+            <h1>L'univers de Pokémon</h1>
+             <p>
+                L'univers de Pokémon a été créé par le développeur japonais Satoshi Tajiri. Le nom de Pokémon provient de la contraction de Pocket Monsters (monstres de poche en français). Pokémon est à  la fois le nom de la franchise qui vaut aujourd'hui plusieurs milliards de dollars, mais aussi le nom des créatures peuplant le monde de l'univers de Pokémon. Il existe plus de 800 espèces de Pokémon réparties en huit générations. 
+
+                L'idée des Pokémon serait inspirée de l'enfance de Satoshi Tajiri qui élevait des criquets destinés à  la course. Il aimait aussi collectionner les insectes puisqu'il était même surnommé par ses amis Dr Bug (docteur insecte). C'est également en imaginant des insectes ramper sur le câble link (câble entre deux consoles de jeux vidéo) qu'il a souhaité créer un jeu autour de cette idée.
+                
+                Satoshi Tajiri vint à  travailler pour Nintendo et rencontre Shigeru Miyamoto, le créateur de Mario et Zelda. Les premiers jeux vidéo Pokémon (ou Pocket Monsters à  l'époque), Vert et Rouge sortent sur Game Boy en 1996 uniquement au Japon. Les jeux sont très rapidement des succès et une série animée ainsi qu'un jeu de cartes de cartes à  collectionner sont alors créés. Le succès Pokémon ne fait alors que commencer.
+            </p>
+        
+            <section id="contact"></section>
+            <h2 class="contact"> Ecrivez-moi </h2>
+            
+                <form method="post" action="traitement.php">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                    <Label for="nom">Nom</Label>
+                    <input type="text" name="nom" id="nom" required>
+                </div>
+                <div class="form-column">
+                    <label for="mail"> Email</label>
+                    <input type="mail" name="mail" id="mail" required>
+                    </div>
+                </div>
+                    <label for="message"> Message</label>
+                    <textarea name="message" id="message" rows="10" required></textarea>
+                    <input type="submit" value="ENVOYER" class="cta">
+                </form>
+            </section>
+    
+        </main>
+
+        <footer>
+            
+        <a href="https://www.pokemon.com/fr" >
+            Site de Pokemon
+        </a>
+        <a href="https://www.pokepedia.fr/Portail:Accueil" >
+          Site de Pokepédia
+            </a>
+        <a href="https://www.pokebip.com/page/jeuxvideo/liste_jeux">
+            Site de Pokebip
+        </a>
+       </footer>
+        
+    </body>
+
+</html>
